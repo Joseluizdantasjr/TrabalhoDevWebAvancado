@@ -15,7 +15,7 @@ var onHold;
 
 
 
-bot.onText(/\/echo (.+)/, (msg, match) => 
+bot.onText(/\/echo (.+)/, (msg, match) => {
  
   const chatId = msg.chat.id;
   const resp = match[1];
